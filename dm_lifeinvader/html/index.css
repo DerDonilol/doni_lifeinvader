@@ -1,0 +1,394 @@
+body {
+    background: none !important;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    height: 435px;
+    
+    background: #000000e8;
+    border-radius: 25px;
+}
+
+.topshit {
+    position: absolute;
+}
+
+img.lifeinvaderlogo {
+    position: absolute;
+    width: 120px;
+    left: 130px;
+    top: 40px;
+}
+
+img.insiderlogo {
+    position: absolute;
+    width: 40px;
+    left: 655px;
+    top: 440px;
+}
+
+img.madonna {
+    position: absolute;
+    width: 733px;
+    height: 400px;
+    left: 50px;
+    top: 84px;
+    text-shadow: #e64444;
+}
+
+img.overheadshow {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 180px;
+    top: 50px;
+}
+
+.toplinie {
+    position: absolute;
+    width: 146.01px;
+    height: 0px;
+    left: 237px;
+    top: 95.99px;
+}
+
+p.toptext {
+    position: absolute;
+    width: 408px;
+    height: 26px;
+    left: 113px;
+    top: 102px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: rgb(255, 255, 255);
+}
+
+p.deinwerbetext {
+    position: absolute;
+    width: 166px;
+    height: 26px;
+    left: 206px;
+    top: 177px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #ffffff;
+}
+
+.werbebox {
+    position: absolute;
+    width: 340px;
+    height: 150px;
+    left: 22px;
+    top: 205px;
+    
+    box-sizing: border-box;
+    background-color: #141212;
+    border-radius: 10px;
+}
+
+img.tabbox {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 5px;
+    top: 4px;
+}
+
+.overheadbox {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    
+    box-sizing: border-box;
+    background-color: #3a3a3a;
+    border-radius: 10px;
+}
+
+
+.Logoname {
+    position: absolute;
+    width: 152px;
+    height: 23px;
+    left: 140px;
+    top: 150px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #ffffff;
+    
+}
+
+.MonatMai {
+    position: absolute;
+    width: 152px;
+    height: 23px;
+    left: 310px;
+    top: 432px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #ffffff;
+    
+}
+
+.MonatJuni {
+    position: absolute;
+    width: 152px;
+    height: 23px;
+    left: 425px;
+    top: 432px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #ffffff;
+    
+}
+
+.moneypoint {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 559px;
+    top: 85px;
+    
+    box-sizing: content-box;
+    background-color: #9e1d1d;
+    border-radius: 20px;
+}
+
+.Monatseinkommen {
+    position: absolute;
+    width: 152px;
+    height: 23px;
+    left: 550px;
+    top: 85px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #0e8b18;
+}
+
+.overheadbox2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 52px;
+    top: 0px;
+    
+    box-sizing: border-box;
+    background-color: #3a3a3a;
+    border-radius: 10px;
+}
+
+.werbebox {
+    position: absolute;
+    width: 340px;
+    height: 150px;
+    left: 22px;
+    top: 205px;
+    
+    box-sizing: border-box;
+    background-color: #141212;
+    border-radius: 10px;
+}
+
+.werbetext {
+    position: absolute;
+    top: 160px;
+    left: 18px;
+}
+
+.inputlinie {
+    position: absolute;
+    width: 283px;
+    height: 0px;
+    left: 53px;
+    top: 276px;
+    
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.kosten {
+    position: absolute;
+    width: 152px;
+    height: 23px;
+    left: 146px;
+    top: 380px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 27px;
+    
+    color: #ffffff;
+    
+}
+
+button.schalten {
+    position: absolute;
+    width: 180.86px;
+    height: 38.44px;
+    left: 100px;
+    top: 409px;
+    
+    background: #969696e8;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    transform: rotate(0deg);
+    outline: none;
+}
+
+.schalten {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+
+}
+
+.schalten:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.schalten:hover {
+    transition: 0.8s;
+    background: #353535;
+}
+p.werbunstext {
+/* Kosten: $500 */
+
+
+position: absolute;
+width: 152px;
+height: 23px;
+left: 144px;
+top: 342px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+color: #ffffff;
+}
+
+
+img.closebutton{
+    position: absolute;
+width: 22px;
+height: 22px;
+left: 664px;
+top: 10px;
+}
+
+
+input {
+    position: absolute;
+    width: 283px;
+
+    left: 128px;
+    top: 256px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+img.links {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 19px;
+    top: 322px;
+    opacity: 0.5;
+
+}
+
+img.rechts {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 299px;
+    top: 322px;
+    opacity: 0.5;
+}
+
+.eingabe {
+    position: absolute;
+    width: 283px;
+    height: 200px;
+
+    left: 51px;
+    top: 245px;
+    resize: none;
+    color: white;
+    
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color:#2b2929;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1e00cb;
+    border-radius: 20px;
+    -webkit-box-shadow: #2b2929;
+}
